@@ -23,5 +23,23 @@ li {
 }
 
 h2 {
-  color: skyblue;
+  color: #67b5ee;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+h1 {
+  background-color: #222222;
+  color: white;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  margin: 5em 0 1em;
+}
+
+#color {
+  color: #48a5e8;
 }
