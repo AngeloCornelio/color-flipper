@@ -42,6 +42,7 @@ h1 {
 
 #color {
   color: #48a5e8;
+  text-transform: capitalize;
 }
 
 button {
