@@ -1,3 +1,7 @@
+body {
+  background-color: red;
+}
+
 body, h1, h2, button, ul, li {
   font-family: sans-serif;
   padding: 0;
@@ -5,8 +9,25 @@ body, h1, h2, button, ul, li {
   list-style: none;
 }
 
-body {
-  background-color: red;
+
+
+h1 {
+  background-color: #222222;
+  color: white;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  margin: 5em 0 1em;
+}
+
+h2 {
+  color: #67b5ee;
+}
+
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 header {
@@ -23,32 +44,20 @@ li {
   padding: 0.5em;
 }
 
-h2 {
-  color: #67b5ee;
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 12px;
 }
 
-main {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-h1 {
-  background-color: #222222;
-  color: white;
-  padding: 0.25em;
-  border-radius: 0.25em;
-  margin: 5em 0 1em;
-}
-
-#color {
+.color {
   color: #48a5e8;
   text-transform: capitalize;
 }
 
-button {
-  background-color: red;
-  padding: 0.5em 1em;
+.action {
+  background: #fff;
   border: 2px solid #222;
   border-radius: 0.25em;
   letter-spacing: 0.1em;
